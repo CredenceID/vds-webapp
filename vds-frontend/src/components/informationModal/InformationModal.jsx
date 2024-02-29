@@ -4,6 +4,7 @@ import { getIdentityInfo, saveIdData } from "../../services/Utils";
 import QRGIF1 from "../../assets/images/Verification_using_QR.gif";
 import QRGIF2 from "../../assets/images/Verification_using_NFC.gif";
 import physicalIMG from "../../assets/images/DL_Scan_Back.png";
+import physicalVericheckScanIMG from "../../assets/images/scan_using_vericheck.png"
 import Loader from "./Loader";
 import Header from "../../containers/header/Header";
 import { Navigate } from "react-router";
@@ -151,11 +152,11 @@ const InformationModal = () => {
           <>
             <div className="information-container">
               <div className="information-section">
-                <div className="information-modal-image-wrap">
+                <div className="information-modal-image-wrap-physical">
                   <img
                     className="information-modal-image-physical"
-                    src={physicalIMG}
-                    alt="physicalImg"
+                    src={physicalVericheckScanIMG}
+                    alt="physicalVericheckScanImg"
                   ></img>
                 </div>
               </div>
@@ -170,7 +171,7 @@ const InformationModal = () => {
             <div className="message-wrap">
               <p className="message-btn-wrap">
                 <span className="text-span">
-                  Please scan 2D barcode at the back of your DL
+                  Please insert your physical license into the VeriCheck device
                 </span>
               </p>
               <p className="message-btn-wrap">

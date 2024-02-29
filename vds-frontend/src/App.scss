@@ -245,7 +245,7 @@ ul.breadcrumb li a:hover {
   color: #000;
 }
 .information-modal {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .information-modal-text-span {
   font-size: xx-large;
@@ -257,18 +257,23 @@ ul.breadcrumb li a:hover {
   justify-content: center;
   margin-left: 25%;
 }
+.information-modal-image-wrap-physical{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
 .information-modal-image-physical {
-  width: 30%;
-  margin: 50px;
+  width: 32%;
+  margin: 2rem;
 }
 .information-modal-image {
-  width: 50%;
-  margin: 50px;
+  //width: 50%;
+  margin: 40px 50px;
 }
 .information-modal-name-wrap {
   display: flex;
   justify-content: space-evenly;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 .information-modal-qr-verification-text {
   margin-left: 25px;
